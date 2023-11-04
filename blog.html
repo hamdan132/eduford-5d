@@ -1,0 +1,144 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1, initial-scale=1.0" content="with=device-width">
+    <title>5D WEBSITE DESIGN</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Smooch+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+
+            <a href="index.html"><img src="image/logo.png" class="logo"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+
+        </nav>
+        <h1>Our Certificate & Online Programs For 2022</h1>
+    </section>
+
+
+
+    <!-- ------blog page-------- -->
+    <section class="blog-cont">
+        <div class="row">
+            <div class="blog-left">
+                <img src="image/certificate.jpg" alt="">
+                <h2>Our Certificate & Online Programs For 2022</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A quia aliquid rem tempora obcaecati natus
+                    eius! Recusandae magni commodi quos voluptatum qui omnis, saepe numquam esse officiis. Placeat,
+                    nulla nisi. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum illum odit distinctio
+                    facilis quis ad quo nam saepe rerum ipsa, quisquam explicabo delectus voluptatum dolores dicta
+                    ipsam! Quae, ipsam officia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, eligendi
+                    modi voluptas inventore asperiores animi, quaerat alias officiis iure adipisci illum debitis. Qui
+                    facere rem quibusdam! Omnis accusantium non voluptatum.</p><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A quia aliquid rem tempora obcaecati natus
+                    eius! Recusandae magni commodi quos voluptatum qui omnis, saepe numquam esse officiis. Placeat,
+                    nulla nisi. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum illum odit distinctio
+                    facilis quis ad quo nam saepe rerum ipsa, quisquam explicabo delectus voluptatum dolores dicta
+                    ipsam! Quae, ipsam officia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, eligendi
+                    modi voluptas inventore asperiores animi, quaerat alias officiis iure adipisci illum debitis. Qui
+                    facere rem quibusdam! Omnis accusantium non voluptatum.</p>
+                <div class="comment">
+                    <h3>Leave a Comment</h3>
+                    <form class="comment-form" action="form handler.php" method="post">
+                        <input name="name" type="text" placeholder="Enter Your Name" required>
+                        <input name="email" type="email" placeholder="Enter Email Address" required>
+                        <input name="subject" type="text" placeholder="Enter Your Subject" required>
+                        <textarea name="message" rows="8" placeholder="Enter Your Comment" aria-setsize="fixed"></textarea>
+                        <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>31</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+                <div>
+                    <span>Business English</span>
+                    <span>43</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- -----footer----- -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas eum, illum rerum vel aliquid culpa dolorem<br>
+            unde, laboriosam minima a minus nemo! Dolorum quibusdam hic pariatur voluptatum vitae excepturi nihil!</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made by Hamdan ibne Muneer</p>
+    </section>
+
+
+    <script>
+        // js for toggle menu
+
+        var navlinks = document.getElementById("navlinks");
+        function showmenu() {
+            navlinks.style.right = "0";
+        }
+        function hidemenu() {
+            navlinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+
+</html>
